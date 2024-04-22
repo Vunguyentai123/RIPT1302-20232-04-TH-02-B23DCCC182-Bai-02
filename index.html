@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction to Charts</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> 
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Introduction to Charts</h1>
+    
+    <div class="chart-container" id="scatter-plot">
+        <h2>Scatter Plot</h2>
+        <p>
+            A scatter plot is a type of plot that displays values for two variables as points on a Cartesian plane. It is useful for identifying relationships between the variables.
+        </p>
+        <canvas id="scatter-plot-visualization" width="400" height="400"></canvas>
+    </div>
+
+    <div class="chart-container" id="bar-chart">
+        <h2>Bar Chart</h2>
+        <p>
+            A bar chart is a chart that presents categorical data with rectangular bars with lengths proportional to the values that they represent. It is commonly used to compare data across categories.
+        </p>
+        <canvas id="bar-chart-visualization" width="400" height="400"></canvas>
+    </div>
+
+    <div class="chart-container" id="line-chart">
+        <h2>Line Chart</h2>
+        <p>
+            A line chart is a type of chart that displays information as a series of data points connected by straight line segments. It is often used to visualize trends over time.
+        </p>
+        <canvas id="line-chart-visualization" width="400" height="400"></canvas>
+    </div>
+
+    <div class="chart-container" id="pie-chart">
+        <h2>Pie Chart</h2>
+        <p>
+            A pie chart is a circular statistical graphic that is divided into slices to illustrate numerical proportions.
+        </p>
+        <canvas id="pie-chart-visualization" width="400" height="400"></canvas>
+    </div>
+
+    <div class="chart-container" id="donut-chart">
+        <h2>Donut Chart</h2>
+        <p>
+            A donut chart is similar to a pie chart, but with a hole in the center. It is useful for showing the relationship of parts to a whole.
+        </p>
+        <canvas id="donut-chart-visualization" width="400" height="400"></canvas>
+    </div>
+
+    <div class="chart-container" id="bubble-chart">
+        <h2>Bubble Chart</h2>
+        <p>
+            A bubble chart is a type of chart that displays three dimensions of data: x, y, and z (size of the bubble). It is useful for visualizing relationships between numeric variables.
+        </p>
+        <canvas id="bubble-chart-visualization" width="400" height="400"></canvas>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
